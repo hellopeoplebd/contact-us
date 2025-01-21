@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #FF6F00, #FF8F00); /* Gradient color */
+    padding: 20px 40px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo-container {
+    flex: 0 1 auto;
+    text-align: left;  /* Aligning logo to the left */
+}
+
+.logo {
+    max-width: 250px;  /* Increased size of logo */
+    height: auto;
+}
+
+.header-text {
+    flex: 1;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.header-text h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #fff;  /* White color for better contrast */
+    margin: 0;
+}
+
+.header-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;  /* White color for better contrast */
+    margin: 5px 0 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.contact-info, .delivery-area, .map-area, .back-home {
+    margin-bottom: 20px;
+}
+
+.contact-info h2, .delivery-area h2, .map-area h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .delivery-area p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #d55f00;
+}
+
+/* Map Section */
+.map-area .map-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Back Home Button */
+.back-home {
+    text-align: center;
+}
+
+.back-home .home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff6f00;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-home .home-btn:hover {
+    background-color: #d55f00;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ff6f00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d55f00;
+}
